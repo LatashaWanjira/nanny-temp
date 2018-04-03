@@ -1,0 +1,58 @@
+/*Admin log-in page image styling*/
+
+.log-in-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 96vh;
+}
+
+/*Admin log-in page form styling*/
+
+.log-in-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 96vh;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .log-in-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+  }
+  .log-in-image img {
+    width: 90vw;
+  }
+  .log-in-form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 65vh;
+  }
+}
+
+/* Tablets */
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .log-in-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+  }
+  .log-in-image img {
+    width: 45vw;
+  }
+  /*Admin log-in page form styling*/
+  .log-in-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+  }
+}

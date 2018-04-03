@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+.content {
+  min-height: calc(100vh - 4vh);
+}
+
+#footer {
+  background-color: #5E113A;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 0;
+  height: 4vh;
+}
+
+#footer p {
+  bottom: 0;
+  margin: 0;
+}

@@ -1,0 +1,41 @@
+<form class="form-control" action="" method="post">
+  <h3>Edit [Nanny's Name] profile</h3>
+  <!-- Nanny's First Name -->
+  <div class="form-group">
+    <label for="admin-name">First Name: </label>
+    <input type="text" name="firstname" value="first-name" placeholder="First Name" required>
+    <label for="admin-name">Last Name</label>
+    <input type="text" name="" value="last-name" placeholder="Last Name" required>
+  </div>
+  <!-- Nanny's DOB -->
+  <div class="form-group">
+    <label for="nanny-dob">Date Of Birth: </label>
+    <input type="date" name="" value="d-o-b" placeholder="dd/mm/yy" required>
+  </div>
+  <!-- Nanny's Number -->
+  <div class="form-group">
+    <label for="nanny-phone-number">Phone Number</label>
+    <input type="text" name="" value="phone-number" required>
+  </div>
+  <!-- Nanny's Location -->
+  <div class="form-group">
+    <label for="nanny-location">Location</label>
+    <select name="locations" required>
+      <option value="nairobi">Nairobi</option>
+      <option value="mombasa">Mombasa</option>
+      <option value="kisumu">Kisumu</option>
+      <option value="eldoret">Eldoret</option>
+    </select>
+  </div>
+  <!-- Nanny's Skills -->
+  <div class="form-group">
+    <label for="nanny-skill">Skills: </label><br>
+    <input type="checkbox" name="" value="baby-sitting"> Baby Sitting <br>
+    <input type="checkbox" name="" value="house-cleaning"> House Cleaning <br>
+    <input type="checkbox" name="" value="commercial-cleaning"> Commerical Cleaning <br>
+  </div>
+
+
+  <!-- Log in button -->
+  <button type="submit" name="button">Add Nanny</button>
+</form>

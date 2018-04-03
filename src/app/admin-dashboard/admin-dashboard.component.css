@@ -1,0 +1,9 @@
+.dashboard-menu {
+  color: white;
+  height: inherit;
+  background-color: #F11B88;
+}
+
+.dashboard-menu-content {
+  position: fixed;
+}

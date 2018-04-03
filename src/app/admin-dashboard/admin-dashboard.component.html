@@ -1,0 +1,22 @@
+<section>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-3 col-md-3 dashboard-menu">
+        <div class="dashboard-menu-content">
+          <h2>Welcome Admin</h2>
+          <ul>
+            <li><a routerLink="/new-nanny" routerLinkActive="active">Add A New Nanny</a></li>
+            <li><a routerLink="/nannies" routerLinkActive="active">Nanny List</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-9 col-md-9">
+        <app-new-nanny></app-new-nanny>
+        <app-edit-nanny></app-edit-nanny>
+        <app-nanny-list></app-nanny-list>
+        <app-nanny-details></app-nanny-details>
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</section>

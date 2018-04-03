@@ -1,0 +1,50 @@
+<form class="form-control" action="" method="post">
+  <h3>Add new nanny</h3>
+
+  <!-- Nanny's Names -->
+  <div class="form-group">
+    <label for="nanny-first-name">First Name: </label>
+    <input type="text" name="firstname" value="" placeholder="First Name" required>
+    <label for="nanny-last-name">Last Name:</label>
+    <input type="text" name="" value="" placeholder="Last Name" required>
+  </div>
+
+  <!-- Nanny's DOB -->
+  <div class="form-group">
+    <label for="nanny-dob">Date Of Birth: </label>
+    <input type="date" name="" value="" placeholder="dd/mm/yy" required>
+  </div>
+
+  <!-- Nanny's Number -->
+  <div class="form-group">
+    <label for="nanny-phone-number">Phone Number: </label>
+    <input type="text" name="" value="+254" required>
+  </div>
+
+  <!-- Nanny's Location -->
+  <div class="form-group">
+    <label for="nanny-location">Location: </label>
+    <select name="locations">
+      <option value="nairobi">Nairobi</option>
+      <option value="mombasa">Mombasa</option>
+      <option value="kisumu">Kisumu</option>
+      <option value="eldoret">Eldoret</option>
+    </select>
+  </div>
+
+  <!-- Nanny's Skillset -->
+  <div class="form-group">
+    <label for="nanny-skill">Skills: </label><br>
+    <input type="checkbox" name="" value="baby-sitting"> Baby Sitting <br>
+    <input type="checkbox" name="" value="house-cleaning"> House Cleaning <br>
+    <input type="checkbox" name="" value="commercial-cleaning"> Commerical Cleaning <br>
+  </div>
+
+  <!-- Nanny's photo: only accepts jpg, png, jpeg -->
+  <div class="form-group">
+    <input id="image" type="file" accept=".png, .jpg, .jpeg">
+  </div>
+
+  <!-- Submit button -->
+  <button type="submit" name="button">Add Nanny</button>
+</form>
